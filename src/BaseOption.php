@@ -4,9 +4,10 @@ namespace KilroyWeb\Options;
 
 abstract class BaseOption{
 
-    protected $data
+    protected $attributes=[];
 
     public static function get($blank=false, $attributes=[]){
+        $this->attributes = $attributes;
         $optionClass = new static();
         $array = $optionClass->getArray();
         $response = [];
