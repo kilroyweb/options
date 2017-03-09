@@ -1,0 +1,12 @@
+{
+    "name": "kilroyweb/options",
+    "description": "Class-based select options for Laravel",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "KilroyWeb\\Options\\": "src"
+        }
+    }
+}
