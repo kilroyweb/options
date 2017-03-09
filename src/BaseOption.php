@@ -7,8 +7,8 @@ abstract class BaseOption{
     protected $attributes=[];
 
     public static function get($blank=false, $attributes=[]){
-        $this->attributes = $attributes;
         $optionClass = new static();
+        $optionClass->attributes = $attributes;
         $array = $optionClass->getArray();
         $response = [];
         if(!empty($blank)){
