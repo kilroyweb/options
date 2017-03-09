@@ -6,4 +6,8 @@ use KilroyWeb\Options\BaseOption;
 
 class [CLASSNAME] extends BaseOption {
 
+	public function getArray(){
+        return [];
+    }
+
 }
