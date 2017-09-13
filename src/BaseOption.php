@@ -46,6 +46,10 @@ abstract class BaseOption{
         }
         return $response;
     }
+    
+    public function keysAsValues($array = []){
+        return array_combine($array, $array);
+    }
 
     public function getArray(){
         return [];
