@@ -8,5 +8,12 @@
         "psr-4": {
             "KilroyWeb\\Options\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KilroyWeb\\Options\\Providers\\OptionServiceProvider"
+            ]
+        }
     }
 }
