@@ -1,3 +1,7 @@
+# Package Has Moved
+
+Please instead use https://github.com/binarycabin/options
+
 # Options
 
 Class-based select options for Laravel
